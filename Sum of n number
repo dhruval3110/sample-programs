@@ -1,0 +1,12 @@
+package main
+
+// Sum returns a sum of all numbers in an array
+func Sum(numbers []int) int {
+	sum := 0
+	for _, n := range numbers {
+		sum += n
+	}
+	return sum
+}
+
+// Sum of n number returns a sum of the array in an array
